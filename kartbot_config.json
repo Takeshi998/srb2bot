@@ -1,0 +1,28 @@
+{
+    "prefix": "S$",
+    "description": "Bot de srb2",
+    "token": "su token",
+
+    "screen_name": "server1",
+    "server_folder_path": "/home/ubuntu/.srb2/",
+    "server_executable_name": "/home/ubuntu/SRB2/bin/lsdl2srb2",
+    "server_executable_args": "screen -dmS server1 -home /home/ubuntu/ -port 5029 -dedicated -file",
+    "server_max_players": 32,
+    "ip_message": "```su ip de su servidor ```",
+    "permission_error_message": "Apenas membros com os cargos ADM, Webmaster ou Helper podem usar esse comando",
+    "admin_roles": ["rol1", "rol2"],
+
+    "enable_dkartconfig_corruption_workaround": true,
+    "enable_log_backup": true,
+    "backup_dkartconfig_path": "/home/ubuntu/.srb2/config.cfg.bak",
+    "dkartconfig_path": "/home/ubuntu/.srb2/config.cfg",
+    "log_path": "/home/ubuntu/.srb2/latest-log.txt",
+    "backup_log_path": "/home/ubuntu/.srb2/latest-log.txt.bak",
+    "tag_path": "/home/ubuntu/srb2bot/tags/",
+
+    "chat_bridge": true,
+    "chat_bridge_channel_id": id_del_canal_del_bot,
+    "bot_commands_channel_id": id_del_canal_de_comandos,
+    "webhook_url": "copie aqui el link de su webhook que genero en el canal correspondiente",
+    "webhook_base_avatar_url": "https://sudominio.com/static/webhook_avatars/"
+}
